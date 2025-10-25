@@ -1,0 +1,74 @@
+[
+  {
+    "plantId": "p001",
+    "plantName": "Snake Plant",
+    "category": "Air Purifier",
+    "price": 18,
+    "rating": 4.8,
+    "availableStock": 10,
+    "careLevel": "Easy",
+    "description": "A hardy, sculptural plant that purifies indoor air by removing toxins like formaldehyde and benzene. Thrives in low light, making it perfect for beginners.",
+    "image": "https://i.postimg.cc/VLh3bB1w/snake-plant.jpg",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": "p002",
+    "plantName": "Monstera Deliciosa",
+    "category": "Tropical",
+    "price": 45,
+    "rating": 4.6,
+    "availableStock": 5,
+    "careLevel": "Medium",
+    "description": "Known for its iconic split leaves (fenestrations), the Monstera adds a trendy, tropical vibe. Requires bright, indirect light and regular watering.",
+    "image": "https://i.postimg.cc/BQ5p47R5/monstera.jpg",
+    "providerName": "Leafy Home Decor"
+  },
+  {
+    "plantId": "p003",
+    "plantName": "ZZ Plant",
+    "category": "Low Light",
+    "price": 25,
+    "rating": 4.9,
+    "availableStock": 15,
+    "careLevel": "Very Easy",
+    "description": "Almost indestructible, the ZZ plant tolerates extreme neglect, drought, and very low light. It has waxy, deep green leaves.",
+    "image": "https://i.postimg.cc/zX8s73yS/zz-plant.jpg",
+    "providerName": "Green Thumb Growers"
+  },
+  {
+    "plantId": "p004",
+    "plantName": "Fiddle Leaf Fig",
+    "category": "Statement Tree",
+    "price": 85,
+    "rating": 4.3,
+    "availableStock": 3,
+    "careLevel": "Hard",
+    "description": "A popular statement houseplant with large, violin-shaped leaves. It requires consistent light and watering to prevent leaf drop.",
+    "image": "https://i.postimg.cc/j5P3t8K5/fiddle-leaf-fig.jpg",
+    "providerName": "Botanical Bliss Co."
+  },
+  {
+    "plantId": "p005",
+    "plantName": "Pothos (Golden)",
+    "category": "Vining",
+    "price": 15,
+    "rating": 4.7,
+    "availableStock": 20,
+    "careLevel": "Easy",
+    "description": "A trailing vine that's incredibly easy to care for and can tolerate various light conditions. Great for shelves and hanging baskets.",
+    "image": "https://i.postimg.cc/RFH7d0jC/pothos.jpg",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": "p006",
+    "plantName": "Air Plants (Tillandsia)",
+    "category": "Unique",
+    "price": 12,
+    "rating": 4.5,
+    "availableStock": 30,
+    "careLevel": "Medium",
+    "description": "These plants don't require soil! They absorb water and nutrients through their leaves. Perfect for terrariums and unique displays.",
+    "image": "https://i.postimg.cc/9F7Tz29J/air-plant.jpg",
+    "providerName": "Green Thumb Growers"
+  }
+]
