@@ -1,16 +1,53 @@
-# React + Vite
+🌿 GreenThumb: Your Personal Plant Care Companion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GreenThumb is a single-page application built with React, designed to help plant enthusiasts manage, track, and care for their personal indoor and outdoor plant collections. It features robust user authentication to provide a secure and personalized experience.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Secure Authentication: Users can register and log in using Email/Password or Google Sign-In.
 
-## React Compiler
+User Profiles: Allows users to set a display name and optional photo URL upon registration.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Password Reset: Functionality for users to securely reset their passwords.
 
-## Expanding the ESLint configuration
+Protected Routes: The My Plants dashboard is protected and only accessible to authenticated users, ensuring data privacy.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive UI: A modern, clean, and fully responsive interface built using Tailwind CSS and Lucide icons.
+
+System Notifications: Includes a dynamic Toast system for user feedback on authentication actions (success, error, loading).
+
+🛠 Technology Stack
+
+This project is implemented as a single-file application adhering to the best practices for immersive, self-contained environments.
+
+Frontend Framework: React (Functional Components and Hooks).
+
+Styling: Tailwind CSS for utility-first, responsive design.
+
+Authentication & Backend Services: Firebase Authentication for secure user registration, login, and session management.
+
+💻 Running the Application
+
+Since this application is designed as a single, self-contained React file (Application.jsx), it is ready to run in any standard React environment with Tailwind CSS configured, or directly within the Canvas environment where Firebase variables are auto-injected.
+
+Key Components:
+
+AuthProvider: Manages all Firebase Auth logic (login, register, logout, onAuthStateChanged) and state for the entire application.
+
+Header & Footer: Provide consistent navigation and branding across all pages.
+
+HeroSection: The primary component of the landing page, showcasing the app's features and call-to-action for sign-up/login.
+
+Login / Register: Dedicated pages for user onboarding, including input validation and social sign-in.
+
+AppRouter: Handles simple state-based navigation (routing) between the main pages.
+
+👥 Data Security (Firestore Integration)
+
+This application is set up to utilize Firebase Firestore for future data persistence. The current data storage structure paths are pre-configured to adhere to platform security rules, ensuring user data separation:
+
+Private Data: /artifacts/{appId}/users/{userId}/{your_collection_name}
+
+Public Data: /artifacts/{appId}/public/data/{your_collection_name}
+
+The Plants page currently serves as a placeholder for where the actual Firestore integration and plant tracking logic would reside in a full production version.
